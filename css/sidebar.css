@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+/* Sidebar tabs styling */
+.sidebar a {
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for tabs */
+.sidebar a:hover {
+  background-color: #444;
+}
+
+/* Active tab styling */
+.sidebar a.active {
+  background-color: #555;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+
+a {
+    color: blue;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.show{
+    position: absolute;
+    inset: auto auto 0px 0px;
+    margin: 0px;
+    transform: translate3d(0px, -34px, 0px);
+}
+.card-body{
+    padding: 0rem 1rem !important;
+}
+.active{
+    background-color: #343a40;
+    color: white;
+
+}

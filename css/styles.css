@@ -1,0 +1,27 @@
+.logo {
+    height: 50px;
+    width: 150px;
+}
+
+.icon1 {
+    padding: 8px;
+    display: flex;
+    width: 71px;
+    position: relative;
+    font-size: 1.5rem;
+    color: cornflowerblue;
+    left: 629px;
+    bottom: 35px;
+    place-items: end;
+    border-radius: 20px;
+    background-color: #D0E7D2;
+}
+.apply {
+    display: flex;
+    float: inline-end;
+}
+.enroll-button {
+    
+    text-align: center;
+    padding: 0px;
+}
